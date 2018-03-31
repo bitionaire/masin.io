@@ -1,0 +1,75 @@
+@import 'style/responsive.scss';
+@import 'style/dimensions.scss';
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__header {
+  display: flex;
+  align-items: center;
+  padding: $large-padding;
+}
+
+.app__logo {
+  fill: #2f3035;
+
+  width: 20vw;
+  height: 20vw;
+  max-width: 128px;
+  max-height: 128px;
+}
+
+.app__title {
+  font-size: 8vw;
+  margin: 0 0 0 $large-margin;
+  color: #393b44;
+  font-family: 'Questrial', sans-serif;
+
+  @include tablet() {
+    font-size: 64px;
+    margin: 0 0 0 $default-margin+$large-margin;
+  }
+}
+
+.app__main {
+  max-width: 480px;
+  padding: $default-padding $large-padding;
+
+  @include tablet() {
+    padding: $large-padding;
+  }
+}
+
+.app__main p {
+  font-size: 16px;
+}
+
+.app__link {
+  &:link, &:visited {
+    color: #f3108a;
+  }
+
+  &:hover, &:focus, &:active {
+    color: #444FAB;
+  }
+}
+
+.app__sound-button {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 0 $default-margin/2;
+  padding: 0;
+  cursor: pointer;
+
+  img {
+    width: auto;
+    height: 16px;
+  }
+}

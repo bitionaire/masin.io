@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 453 397" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Logo" transform="matrix(1,0,0,1,-390.453,-211.554)">
+        <rect x="390.453" y="211.554" width="452.515" height="396.553" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="390.453" y="211.554" width="452.515" height="396.553"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(26.2415,0,0,26.2415,-981.348,121.658)">
+                <path d="M52.309,18.469L52.293,9.839L57.131,3.447L59.255,9.063L69.538,3.642L69.494,11.749L64.27,18.559L64.251,14.441L58.759,17.195L56.827,12.485L52.309,18.469ZM59.477,10.091L59.467,15.703L64.289,13.325L64.289,9.801L67.24,5.993L59.477,10.091ZM53.299,10.166L53.275,15.532L56.511,11.325L56.51,5.993L53.299,10.166ZM65.291,15.532L65.28,13.94L67.317,12.87L65.291,15.532ZM57.498,11.403L58.486,13.869L58.487,9.807L57.512,7.29L57.498,11.403ZM65.28,10.201L65.28,12.8L68.486,11.201L68.48,5.993L65.28,10.201Z" style="fill:#2f3035;"/>
+            </g>
+        </g>
+    </g>
+</svg>

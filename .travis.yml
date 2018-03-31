@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+  - node
+
+cache: yarn
+
+install:
+  - yarn install
+
+script:
+  - yarn build
+  - yarn test
+
+deploy:
+  - provider: surge
+    project: ./build/
+    domain: masin.io
+  - provider: surge
+    project: ./build/
+    domain: masinio.de
+  - provider: surge
+    project: ./build/
+    domain: masinio.com
